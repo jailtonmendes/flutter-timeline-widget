@@ -24,7 +24,8 @@ class MyTimeLineTile extends StatelessWidget {
         isLast: isLast,
         // decorate the lines
         beforeLineStyle: LineStyle(
-            color: isPast ? Colors.deepPurple : Colors.deepPurple.shade100),
+          color: isPast ? const Color(0xFFEE032D) : Colors.deepPurple.shade100,
+        ),
         // decorate the icon
         indicatorStyle: IndicatorStyle(
           width: 40,
